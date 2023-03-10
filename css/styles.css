@@ -20,6 +20,9 @@ h1, h2, h3, h4, h5, h6, p {
     src: url(../css/fonts/Urbanist-Italic-VariableFont_wght.ttf);
 }
 
+
+/* nav bar */
+
 .nav{
     width: 100%;
     background-color: white;
@@ -68,4 +71,163 @@ h1, h2, h3, h4, h5, h6, p {
 
 .icon1{
     height: 100%;
+}
+
+
+/* main page */
+
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/wp8169866-new-york-city-street-wallpapers2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 200px;
+    color: #fff;
+    font-family: Urbanist;
+    opacity: 90%;
+}
+
+
+/* home page */
+
+.home{
+    height: 140%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homebody{
+    width: 70%;
+    height: 85%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.new{
+    height: 40%;
+    width: 100%;
+    background-image: url(../images/air-max-dawn-shoes-qgstCg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new h2{
+    font-family: UrbanistI;
+    font-size: 150px;
+    text-shadow: #fff 2px 2px 2px;
+}
+
+.homebottom{
+    width: 100%;
+    height: 50%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.hbphoto1{
+    width: 45%;
+    height: 100%;
+    background-image: url(../images/H6bc16fbea6bd4349977d2c7c2350f23cR.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.hbphoto1 h2{
+    font-family: UrbanistI;
+    font-size: 75px;
+    color: #fff;
+    text-shadow: #000 2px 2px 2px;
+    margin-left: 20px;
+}
+
+
+.hbphoto2{
+    width: 45%;
+    height: 100%;
+    background-image: url(../images/s-l1600.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.hbphoto2 h2{
+    font-family: UrbanistI;
+    font-size: 75px;
+    color: #fff;
+    text-shadow: #000 2px 2px 2px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+/* products page */
+
+.products{
+    height: 100%;
+    width: 100%;
+    background-color: #FFF3E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bar{
+    height: 10px;
+    width: 200px;
+    background-color: #D4C9B8;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.prodsection{
+    height: 75%;
+    width: 80%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row{
+    width: 100%;
+    height: 45%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    height: 100%;
+    width: 30%;
+    background-color: lightgray;
+}
+
+.col2{
+    height: 100%;
+    width: 50%;
+    background-color: black;
 }
