@@ -224,6 +224,23 @@ h1, h2, h3, h4, h5, h6, p {
     height: 100%;
     width: 30%;
     background-color: lightgray;
+    display: flex;
+}
+
+.coltext{
+    height: 100%;
+    width: 50%;
+    padding: 5%;
+}
+
+.coltext h3{
+    font-family: Urbanist;
+    font-size: 30px;
+}
+
+.coltext p{
+    font-family: Urbanist;
+    font-size: 25px;
 }
 
 .col2{
